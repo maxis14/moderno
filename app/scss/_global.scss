@@ -15,9 +15,26 @@ ul, li {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 30px;
+}
+.container-fluid {
+  max-width: 100%;
+  margin: 0 auto;
   padding: 0 15px;
+}
+@media(max-width: 720px) {
+  .container-fluid {
+    padding: 0 15px;
+  }
 }
 a {
   text-decoration: none;
   display: inline-block;
+}
+.product-title {
+  font-weight: bold;
+  font-size: 36px;
+  color: $grey;
+  margin: 0 auto;
+  text-align: center;
 }
