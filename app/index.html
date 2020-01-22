@@ -12,542 +12,700 @@
 </head>
 
 <body>
-  <header class="header">
-    <div class="header__top">
+  <div class="wrapper">
+    <div class="content">
+      <header class="header">
+        <div class="header__top">
+          <div class="container">
+            <div class="header__top__inner">
+              <a href="#" class="header__logo">
+                <img src="images/header__logo.png" alt="">
+              </a>
+              <div class="header__text">
+                <span class='header__text-help' href="#">Need help?</span>
+                Talk to an expert:
+                <a class='header__text-phone' href="tel:+61383766284">+61 3 8376 6284</a>
+              </div>
+              <div class="header__box">
+                <a href="" class="header__busket"></a>
+                <a href="" class="header__btn header__login">Login</a>
+                <a href="" class="header__btn header__register">Register</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header__menu">
+          <div class="container">
+            <nav class="menu">
+              <ul class="menu__list">
+                <li>
+                  <a href="#">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    WordPress
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Joomla
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    PSD
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Plugins
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Components
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Pages
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Contact
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Help
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+    
+      </header>
+    
+      <section class="search" style="background-image: url('images/search__bg.jpg');">
+        <div class="container">
+          <div class="search__title">Welcome To Foxtar Market Place!</div>
+          <div class="search__whatWeHave">Premium WordPress Themes, Web Templates and Many More ...</div>
+          <div class="search__form">
+            <form action="">
+              <div class="search__form__wrap">
+                <input type="text" name="search" id="" placeholder="Search Your Keywords...">
+                <button class="search__btn"></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    
+      <section class="product">
+        <div class="container-fluid">
+          <div class="product-title product__title">Let's Check Out Our Newest Release Products</div>
+          <div class="product__inner">
+            <button type="button" class="product__btn" data-filter="all">All</button>
+            <button type="button" class="product__btn" data-filter=".category-WordPress">WordPress</button>
+            <button type="button" class="product__btn" data-filter=".category-Joomla">Joomla</button>
+            <button type="button" class="product__btn" data-filter=".category-Plugins">Plugins</button>
+            <button type="button" class="product__btn" data-filter=".category-Component">Component</button>
+            <button type="button" class="product__btn" data-filter=".category-PSD">PSD</button>
+            <div class="product__carts">
+    
+              <div data-sort="order:new" class="product__cart category-Component mix">
+                <a href="#" class="product__image" style="background-image: url('images/products/1.jpg')"></a>
+                <div class="product__whatitis">
+                  <div class="product__item-wrap">
+                    <a href="#" class="product__name">Responsive Mobile App</a>
+                    <a href="#" class="product__category">Site Template</a>
+                  </div>
+                  <div class="product__price">$19</div>
+                </div>
+                <div class="product__bottom">
+                  <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                  <a href="#" class="autor__name">Radiustheme</a>
+                  <div class="product__star"></div>
+                  <div class="stars">(05)</div>
+                </div>
+              </div>
+    
+              <div data-sort="order: popular" class="product__cart category-WordPress mix">
+                <a href="#" class="product__image" style="background-image: url('images/products/2.jpg')"></a>
+                <div class="product__whatitis">
+                  <div class="product__item-wrap">
+                    <a href="#" class="product__name">The Post Grid Pro</a>
+                    <a href="#" class="product__category">WordPress Plugin</a>
+                  </div>
+                  <div class="product__price">$15</div>
+                </div>
+                <div class="product__bottom">
+                  <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                  <a href="#" class="autor__name">PsdBosS</a>
+                  <div class="product__star"></div>
+                  <div class="stars">(05)</div>
+                </div>
+              </div>
+    
+              <div class="product__cart category-WordPress mix">
+                <a href="#" class="product__image" style="background-image: url('images/products/3.jpg')"></a>
+                <div class="product__whatitis">
+                  <div class="product__item-wrap">
+                    <a href="#" class="product__name">Food Menu</a>
+                    <a href="#" class="product__category">WordPress Plugin</a>
+                  </div>
+                  <div class="product__price">$20</div>
+                </div>
+                <div class="product__bottom">
+                  <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                  <a href="#" class="autor__name">manilip</a>
+                  <div class="product__star"></div>
+                  <div class="stars">(05)</div>
+                </div>
+              </div>
+    
+              <div class="product__cart category-PSD mix">
+                <a href="#" class="product__image" style="background-image: url('images/products/4.jpg')"></a>
+                <div class="product__whatitis">
+                  <div class="product__item-wrap">
+                    <a href="#" class="product__name">Imac Mockup</a>
+                    <a href="#" class="product__category">Psd Template</a>
+                  </div>
+                  <div class="product__price">$12</div>
+                </div>
+                <div class="product__bottom">
+                  <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                  <a href="#" class="autor__name">Lolypop</a>
+                  <div class="product__star"></div>
+                  <div class="stars">(05)</div>
+                </div>
+              </div>
+    
+              <div class="product__cart category-Joomla mix">
+                <a href="#" class="product__image" style="background-image: url('images/products/8.jpg')"></a>
+                <div class="product__whatitis">
+                  <div class="product__item-wrap">
+                    <a href="#" class="product__name">Gymedge</a>
+                    <a href="#" class="product__category">Joomla Template</a>
+                  </div>
+                  <div class="product__price">$45</div>
+                </div>
+                <div class="product__bottom">
+                  <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                  <a href="#" class="autor__name">microsof</a>
+                  <div class="product__star"></div>
+                  <div class="stars">(05)</div>
+                </div>
+              </div>
+    
+              <div class="product__cart category-WordPress mix">
+                <a href="#" class="product__image" style="background-image: url('images/products/7.jpg')"></a>
+                <div class="product__whatitis">
+                  <div class="product__item-wrap">
+                    <a href="#" class="product__name">The Post Grid Pro</a>
+                    <a href="#" class="product__category">WordPress Plugin</a>
+                  </div>
+                  <div class="product__price">$19</div>
+                </div>
+                <div class="product__bottom">
+                  <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                  <a href="#" class="autor__name">Raklouse</a>
+                  <div class="product__star"></div>
+                  <div class="stars">(05)</div>
+                </div>
+              </div>
+    
+              <div class="product__cart category-PSD mix">
+                <a href="#" class="product__image" style="background-image: url('images/products/6.jpg')"></a>
+                <div class="product__whatitis">
+                  <div class="product__item-wrap">
+                    <a href="#" class="product__name">Dool Face</a>
+                    <a href="#" class="product__category">Illsatration</a>
+                  </div>
+                  <div class="product__price">$10</div>
+                </div>
+                <div class="product__bottom">
+                  <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                  <a href="#" class="autor__name">Mikc Art</a>
+                  <div class="product__star"></div>
+                  <div class="stars">(05)</div>
+                </div>
+              </div>
+    
+              <div class="product__cart category-PSD mix">
+                <a href="#" class="product__image" style="background-image: url('images/products/5.jpg')"></a href="#">
+                <div class="product__whatitis">
+                  <div class="product__item-wrap">
+                    <a href="#" class="product__name">Illsatration</a>
+                    <a href="#" class="product__category">PSD Template</a>
+                  </div>
+                  <div class="product__price">$10</div>
+                </div>
+                <div class="product__bottom">
+                  <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                  <a href="#" class="autor__name">ThemeLol</a>
+                  <div class="product__star"></div>
+                  <div class="stars">(05)</div>
+                </div>
+              </div>
+    
+            </div>
+            <button type="button" class="product__btn" data-sort="order:new">All New Items</button>
+            <button type="button" class="product__btn" data-sort="order: popular">Popular Items</button>
+    
+          </div>
+        </div>
+      </section>
+    
+      <section class="trending__slider">
+        <div class="container-fluid">
+          <div class="product-title trending__title">This Week Trending Products</div>
+          <div class="slider__trending__inner">
+    
+            <div data-sort="order:new" class="product__cart category-Component mix">
+              <a href="#" class="product__image" style="background-image: url('images/products/1.jpg')"></a>
+              <div class="product__whatitis">
+                <div class="product__item-wrap">
+                  <a href="#" class="product__name">Responsive Mobile App</a>
+                  <a href="#" class="product__category">Site Template</a>
+                </div>
+                <div class="product__price">$19</div>
+              </div>
+              <div class="product__bottom">
+                <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                <a href="#" class="autor__name">Radiustheme</a>
+                <div class="product__star"></div>
+                <div class="stars">(05)</div>
+              </div>
+            </div>
+    
+            <div data-sort="order: popular" class="product__cart category-WordPress mix">
+              <a href="#" class="product__image" style="background-image: url('images/products/2.jpg')"></a>
+              <div class="product__whatitis">
+                <div class="product__item-wrap">
+                  <a href="#" class="product__name">The Post Grid Pro</a>
+                  <a href="#" class="product__category">WordPress Plugin</a>
+                </div>
+                <div class="product__price">$15</div>
+              </div>
+              <div class="product__bottom">
+                <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                <a href="#" class="autor__name">PsdBosS</a>
+                <div class="product__star"></div>
+                <div class="stars">(05)</div>
+              </div>
+            </div>
+    
+            <div class="product__cart category-WordPress mix">
+              <a href="#" class="product__image" style="background-image: url('images/products/3.jpg')"></a>
+              <div class="product__whatitis">
+                <div class="product__item-wrap">
+                  <a href="#" class="product__name">Food Menu</a>
+                  <a href="#" class="product__category">WordPress Plugin</a>
+                </div>
+                <div class="product__price">$20</div>
+              </div>
+              <div class="product__bottom">
+                <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                <a href="#" class="autor__name">manilip</a>
+                <div class="product__star"></div>
+                <div class="stars">(05)</div>
+              </div>
+            </div>
+    
+            <div class="product__cart category-PSD mix">
+              <a href="#" class="product__image" style="background-image: url('images/products/4.jpg')"></a>
+              <div class="product__whatitis">
+                <div class="product__item-wrap">
+                  <a href="#" class="product__name">Imac Mockup</a>
+                  <a href="#" class="product__category">Psd Template</a>
+                </div>
+                <div class="product__price">$12</div>
+              </div>
+              <div class="product__bottom">
+                <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                <a href="#" class="autor__name">Lolypop</a>
+                <div class="product__star"></div>
+                <div class="stars">(05)</div>
+              </div>
+            </div>
+    
+            <div class="product__cart category-Joomla mix">
+              <a href="#" class="product__image" style="background-image: url('images/products/8.jpg')"></a>
+              <div class="product__whatitis">
+                <div class="product__item-wrap">
+                  <a href="#" class="product__name">Gymedge</a>
+                  <a href="#" class="product__category">Joomla Template</a>
+                </div>
+                <div class="product__price">$45</div>
+              </div>
+              <div class="product__bottom">
+                <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                <a href="#" class="autor__name">microsof</a>
+                <div class="product__star"></div>
+                <div class="stars">(05)</div>
+              </div>
+            </div>
+    
+            <div class="product__cart category-WordPress mix">
+              <a href="#" class="product__image" style="background-image: url('images/products/7.jpg')"></a>
+              <div class="product__whatitis">
+                <div class="product__item-wrap">
+                  <a href="#" class="product__name">The Post Grid Pro</a>
+                  <a href="#" class="product__category">WordPress Plugin</a>
+                </div>
+                <div class="product__price">$19</div>
+              </div>
+              <div class="product__bottom">
+                <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                <a href="#" class="autor__name">Raklouse</a>
+                <div class="product__star"></div>
+                <div class="stars">(05)</div>
+              </div>
+            </div>
+    
+            <div class="product__cart category-PSD mix">
+              <a href="#" class="product__image" style="background-image: url('images/products/6.jpg')"></a>
+              <div class="product__whatitis">
+                <div class="product__item-wrap">
+                  <a href="#" class="product__name">Dool Face</a>
+                  <a href="#" class="product__category">Illsatration</a>
+                </div>
+                <div class="product__price">$10</div>
+              </div>
+              <div class="product__bottom">
+                <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                <a href="#" class="autor__name">Mikc Art</a>
+                <div class="product__star"></div>
+                <div class="stars">(05)</div>
+              </div>
+            </div>
+    
+            <div class="product__cart category-PSD mix">
+              <a href="#" class="product__image" style="background-image: url('images/products/5.jpg')"></a href="#">
+              <div class="product__whatitis">
+                <div class="product__item-wrap">
+                  <a href="#" class="product__name">Illsatration</a>
+                  <a href="#" class="product__category">PSD Template</a>
+                </div>
+                <div class="product__price">$10</div>
+              </div>
+              <div class="product__bottom">
+                <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                <a href="#" class="autor__name">ThemeLol</a>
+                <div class="product__star"></div>
+                <div class="stars">(05)</div>
+              </div>
+            </div>
+    
+            <div data-sort="order:new" class="product__cart category-Component mix">
+              <a href="#" class="product__image" style="background-image: url('images/products/1.jpg')"></a>
+              <div class="product__whatitis">
+                <div class="product__item-wrap">
+                  <a href="#" class="product__name">Responsive Mobile App</a>
+                  <a href="#" class="product__category">Site Template</a>
+                </div>
+                <div class="product__price">$19</div>
+              </div>
+              <div class="product__bottom">
+                <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                <a href="#" class="autor__name">Radiustheme</a>
+                <div class="product__star"></div>
+                <div class="stars">(05)</div>
+              </div>
+            </div>
+    
+            <div data-sort="order: popular" class="product__cart category-WordPress mix">
+              <a href="#" class="product__image" style="background-image: url('images/products/2.jpg')"></a>
+              <div class="product__whatitis">
+                <div class="product__item-wrap">
+                  <a href="#" class="product__name">The Post Grid Pro</a>
+                  <a href="#" class="product__category">WordPress Plugin</a>
+                </div>
+                <div class="product__price">$15</div>
+              </div>
+              <div class="product__bottom">
+                <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                <a href="#" class="autor__name">PsdBosS</a>
+                <div class="product__star"></div>
+                <div class="stars">(05)</div>
+              </div>
+            </div>
+    
+            <div class="product__cart category-WordPress mix">
+              <a href="#" class="product__image" style="background-image: url('images/products/3.jpg')"></a>
+              <div class="product__whatitis">
+                <div class="product__item-wrap">
+                  <a href="#" class="product__name">Food Menu</a>
+                  <a href="#" class="product__category">WordPress Plugin</a>
+                </div>
+                <div class="product__price">$20</div>
+              </div>
+              <div class="product__bottom">
+                <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                <a href="#" class="autor__name">manilip</a>
+                <div class="product__star"></div>
+                <div class="stars">(05)</div>
+              </div>
+            </div>
+    
+            <div class="product__cart category-PSD mix">
+              <a href="#" class="product__image" style="background-image: url('images/products/4.jpg')"></a>
+              <div class="product__whatitis">
+                <div class="product__item-wrap">
+                  <a href="#" class="product__name">Imac Mockup</a>
+                  <a href="#" class="product__category">Psd Template</a>
+                </div>
+                <div class="product__price">$12</div>
+              </div>
+              <div class="product__bottom">
+                <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                <a href="#" class="autor__name">Lolypop</a>
+                <div class="product__star"></div>
+                <div class="stars">(05)</div>
+              </div>
+            </div>
+    
+            <div class="product__cart category-Joomla mix">
+              <a href="#" class="product__image" style="background-image: url('images/products/8.jpg')"></a>
+              <div class="product__whatitis">
+                <div class="product__item-wrap">
+                  <a href="#" class="product__name">Gymedge</a>
+                  <a href="#" class="product__category">Joomla Template</a>
+                </div>
+                <div class="product__price">$45</div>
+              </div>
+              <div class="product__bottom">
+                <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                <a href="#" class="autor__name">microsof</a>
+                <div class="product__star"></div>
+                <div class="stars">(05)</div>
+              </div>
+            </div>
+    
+            <div class="product__cart category-WordPress mix">
+              <a href="#" class="product__image" style="background-image: url('images/products/7.jpg')"></a>
+              <div class="product__whatitis">
+                <div class="product__item-wrap">
+                  <a href="#" class="product__name">The Post Grid Pro</a>
+                  <a href="#" class="product__category">WordPress Plugin</a>
+                </div>
+                <div class="product__price">$19</div>
+              </div>
+              <div class="product__bottom">
+                <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                <a href="#" class="autor__name">Raklouse</a>
+                <div class="product__star"></div>
+                <div class="stars">(05)</div>
+              </div>
+            </div>
+    
+            <div class="product__cart category-PSD mix">
+              <a href="#" class="product__image" style="background-image: url('images/products/6.jpg')"></a>
+              <div class="product__whatitis">
+                <div class="product__item-wrap">
+                  <a href="#" class="product__name">Dool Face</a>
+                  <a href="#" class="product__category">Illsatration</a>
+                </div>
+                <div class="product__price">$10</div>
+              </div>
+              <div class="product__bottom">
+                <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                <a href="#" class="autor__name">Mikc Art</a>
+                <div class="product__star"></div>
+                <div class="stars">(05)</div>
+              </div>
+            </div>
+    
+            <div class="product__cart category-PSD mix">
+              <a href="#" class="product__image" style="background-image: url('images/products/5.jpg')"></a href="#">
+              <div class="product__whatitis">
+                <div class="product__item-wrap">
+                  <a href="#" class="product__name">Illsatration</a>
+                  <a href="#" class="product__category">PSD Template</a>
+                </div>
+                <div class="product__price">$10</div>
+              </div>
+              <div class="product__bottom">
+                <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
+                <a href="#" class="autor__name">ThemeLol</a>
+                <div class="product__star"></div>
+                <div class="stars">(05)</div>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </section>
+    
+      <section class="whyWe">
+        <div class="container">
+          <div class="product-title whyWe__title">Why You Choose Foxtar Market Place?</div>
+          <div class="whyWe__inner">
+            <div class="whyWe__col">
+              <div class="whyWe-round">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100.353 100.352"
+                  style="enable-background:new 0 0 100.353 100.352;" xml:space="preserve">
+                  <g>
+                    <path d="M49.982,17.015c-18.555,0-33.65,15.096-33.65,33.65s15.096,33.65,33.65,33.65c18.555,0,33.651-15.096,33.651-33.65
+                    S68.537,17.015,49.982,17.015z M49.982,80.708c-16.566,0-30.044-13.477-30.044-30.043s13.478-30.044,30.044-30.044
+                    c16.566,0,30.043,13.478,30.043,30.044S66.548,80.708,49.982,80.708z" />
+                    <path d="M58.485,45.198l-7.258,7.258V26.64c0-0.996-0.808-1.803-1.804-1.803s-1.803,0.807-1.803,1.803v30.169
+                    c0,0.119,0.012,0.238,0.036,0.355c0.01,0.051,0.029,0.098,0.044,0.148c0.018,0.063,0.033,0.127,0.059,0.189
+                    c0.025,0.06,0.059,0.114,0.09,0.171c0.025,0.047,0.046,0.095,0.076,0.14c0.132,0.198,0.303,0.368,0.501,0.501
+                    c0.037,0.025,0.077,0.041,0.115,0.062c0.064,0.036,0.126,0.074,0.195,0.103c0.054,0.022,0.111,0.035,0.166,0.052
+                    c0.057,0.017,0.111,0.039,0.17,0.05c0.116,0.023,0.234,0.036,0.352,0.036s0.236-0.012,0.352-0.036
+                    c0.059-0.012,0.114-0.033,0.171-0.051c0.055-0.017,0.111-0.029,0.165-0.051c0.07-0.029,0.134-0.068,0.199-0.105
+                    c0.037-0.021,0.075-0.036,0.111-0.06c0.101-0.067,0.195-0.143,0.279-0.229l10.335-10.335c0.704-0.704,0.704-1.846,0-2.55
+                    C60.331,44.493,59.19,44.493,58.485,45.198z" />
+                    <path d="M49.983,9.044c-22.95,0-41.621,18.671-41.621,41.622s18.671,41.621,41.621,41.621c22.95,0,41.622-18.671,41.622-41.621
+                    S72.933,9.044,49.983,9.044z M49.983,88.679c-20.961,0-38.015-17.053-38.015-38.014c0-20.961,17.053-38.015,38.015-38.015
+                    s38.014,17.054,38.014,38.015C87.997,71.626,70.944,88.679,49.983,88.679z" />
+                  </g>
+                </svg>
+    
+              </div>
+              <div class="whyWe__col-title">Easily Buy & Sell</div>
+              <div class="whyWe__text">Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum
+                has been the industry's standaum.</div>
+            </div>
+            <div class="whyWe__col">
+              <div class="whyWe-round">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100.353 100.353"
+                  style="enable-background:new 0 0 100.353 100.353;" xml:space="preserve">
+                  <path d="M85.004,25.102H68.53c2.131-3.23,2.462-6.664,0.66-8.993c-0.938-1.215-2.355-1.976-4.098-2.198
+               c-2.913-0.374-6.436,0.796-9.433,3.119c-1.681,1.298-3.022,2.82-3.961,4.406c-0.944-1.595-2.294-3.123-3.953-4.404
+               c-4.995-3.867-10.943-4.273-13.545-0.922c-1.797,2.33-1.465,5.764,0.663,8.993H18.39c-0.829,0-1.5,0.671-1.5,1.5v15.781
+               c0,0.829,0.671,1.5,1.5,1.5h3.463v39.412c0,0.828,0.671,1.5,1.5,1.5h56.693c0.828,0,1.5-0.672,1.5-1.5V43.883h3.458
+               c0.828,0,1.5-0.671,1.5-1.5V26.602C86.504,25.773,85.832,25.102,85.004,25.102z M57.495,19.403c2.35-1.821,5.122-2.785,7.216-2.516
+               c0.949,0.121,1.656,0.476,2.104,1.057c1.222,1.58,0.295,4.586-2.123,7.159H53.38C53.86,23.188,55.367,21.046,57.495,19.403z
+                M36.573,17.945c1.491-1.92,5.854-1.237,9.336,1.459c2.123,1.641,3.632,3.773,4.113,5.698H38.697
+               C36.284,22.529,35.358,19.522,36.573,17.945z M19.89,28.102h30.309v12.781H19.89V28.102z M24.853,43.883h25.346v37.912H24.853
+               V43.883z M78.546,81.795H53.199V43.883h25.347V81.795z M83.504,40.883H53.199V28.102h12.129c0.001,0,0.001,0,0.002,0h18.174V40.883z
+               " />
+                </svg>
+    
+              </div>
+              <div class="whyWe__col-title">Quality Products</div>
+              <div class="whyWe__text">Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum
+                has been the industry's standaum.</div>
+            </div>
+            <div class="whyWe__col">
+              <div class="whyWe-round">
+                <svg class='whyWe-heart' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-heart">
+                  <path
+                    d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                  </path>
+                </svg>
+              </div>
+              <div class="whyWe__col-title">100% Secure Payment</div>
+              <div class="whyWe__text">Dorem Ipsum is simply dummy text of the pring and typesetting industry. Lorem Ipsum
+                has been the industry's standaum.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="author" style="background-image: url('images/author.jpg')">
+        <div class="author__inner">
+          <div class="author__text">Over <span>20,000</span> Author
+            Are Involved Here!</div>
+          <a href="#" class="author__become">Become A Author</a>
+        </div>
+      </section>
+    
+      <section class="free">
+        <div class="container">
+          <div class="product-title free__title">Free Monthly Tutorials To Help You With Your Project</div>
+          <div class="free__inner">
+            <a chref="#" class="free__item">
+              <div class="free__img" style="background-image: url('images/free/1.jpg');"></div>
+              <div class="free__item-title">Web Design Tutorials</div>
+            </a>
+            <a chref="#" class="free__item">
+              <div class="free__img" style="background-image: url('images/free/2.jpg');"></div>
+              <div class="free__item-title">WordPress Tutorials</div>
+            </a>
+            <a chref="#" class="free__item">
+              <div class="free__img" style="background-image: url('images/free/3.jpg');"></div>
+              <div class="free__item-title">HTML & CSS Tutorials</div>
+            </a chref="#">
+          </div>
+        </div>
+      </section>
+    </div>
+  
+    <footer class="footer">
       <div class="container">
-        <div class="header__top__inner">
-          <a href="#" class="header__logo">
-            <img src="images/header__logo.png" alt="">
-          </a>
-          <div class="header__text">
-            <span class='header__text-help' href="#">Need help?</span>
-            Talk to an expert:
-            <a class='header__text-phone' href="tel:+61383766284">+61 3 8376 6284</a>
-          </div>
-          <div class="header__box">
-            <a href="" class="header__busket"></a>
-            <a href="" class="header__btn header__login">Login</a>
-            <a href="" class="header__btn header__register">Register</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="header__menu">
-      <div class="container">
-        <nav class="menu">
-          <ul class="menu__list">
-            <li>
-              <a href="#">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                WordPress
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Joomla
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                PSD
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Plugins
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Components
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Pages
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Contact
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Help
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-
-  </header>
-
-  <section class="search" style="background-image: url('../images/search__bg.jpg');">
-    <div class="container">
-      <div class="search__title">Welcome To Foxtar Market Place!</div>
-      <div class="search__whatWeHave">Premium WordPress Themes, Web Templates and Many More ...</div>
-      <div class="search__form">
-        <form action="">
-          <div class="search__form__wrap">
-            <input type="text" name="search" id="" placeholder="Search Your Keywords...">
-            <button class="search__btn"></button>
-          </div>
-        </form>
-      </div>
-    </div>
-  </section>
-
-  <section class="product">
-    <div class="container-fluid">
-      <div class="product-title product__title">Let's Check Out Our Newest Release Products</div>
-      <div class="product__inner">
-        <button type="button" class="product__btn" data-filter="all">All</button>
-        <button type="button" class="product__btn" data-filter=".category-WordPress">WordPress</button>
-        <button type="button" class="product__btn" data-filter=".category-Joomla">Joomla</button>
-        <button type="button" class="product__btn" data-filter=".category-Plugins">Plugins</button>
-        <button type="button" class="product__btn" data-filter=".category-Component">Component</button>
-        <button type="button" class="product__btn" data-filter=".category-PSD">PSD</button>
-        <div class="product__carts">
-
-          <div data-sort="order:new" class="product__cart category-Component mix">
-            <a href="#" class="product__image" style="background-image: url('images/products/1.jpg')"></a>
-            <div class="product__whatitis">
-              <div class="product__item-wrap">
-                <a href="#" class="product__name">Responsive Mobile App</a>
-                <a href="#" class="product__category">Site Template</a>
-              </div>
-              <div class="product__price">$19</div>
+        <div class="footer__top">
+          <div class="footer__inner">
+            <div class="footer__item footer__item-1">
+              <div class="footer__title">About Company</div>
+              <p class="footer__about">Praesent vel rutrum purus. Nam vel dui eu risus duis dignissim digniSuspen
+                disse.Fusce sit amet urna iat.Praesent vel rutrum purus. </p>
+              <div class="footer__adress">PO Box 16122 Collins Street West 
+                Victoria 8007 Australia</div>
+              <a href="tel:+61383766284" class="footer__phone">+61 3 8376 6284</a>
             </div>
-            <div class="product__bottom">
-              <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-              <a href="#" class="autor__name">Radiustheme</a>
-              <div class="product__star"></div>
-              <div class="stars">(05)</div>
+            <div class="footer__item footer__item-2">
+              <div class="footer__title">Join Our Community</div>
+              <ul class="footer__menu">
+                <li class="footer__menu-item"><a href="#">Home</a></li>
+                <li class="footer__menu-item"><a href="#">Forums</a></li>
+                <li class="footer__menu-item"><a href="#">Become an Author</a></li>
+                <li class="footer__menu-item"><a href="#">Community Meetups</a></li>
+                <li class="footer__menu-item"><a href="#">Become an Affiliate</a></li>
+              </ul>
+            </div>
+            <div class="footer__item footer__item-3">
+              <div class="footer__title">Need Help?</div>
+              <ul class="footer__menu">
+                <li class="footer__menu-item"><a href="#">Help Center</a></li>
+                <li class="footer__menu-item"><a href="#">Foxtar Market Terms</a></li>
+                <li class="footer__menu-item"><a href="#">Author Terms</a></li>
+                <li class="footer__menu-item"><a href="#">Foxtar Licenses</a></li>
+                <li class="footer__menu-item"><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="footer__item footer__item-4">
+              <div class="footer__title">Follow Us On</div>
+              <ul class="footer__social-link">
+                <li><a href="#" class="link-facebook"></a></li>
+                <li><a href="#" class="link-twitter"></a></li>
+                <li><a href="#" class="link-youtube"></a></li>
+                <li><a href="#" class="link-pinterest"></a></li>
+                <li><a href="#" class="link-likedin"></a></li>
+              </ul>
+              <div class="footer__news">Newsletter Sign Up!</div>
+              <form class="footer__suscribe">
+                <input class="footer_email" type="text" placeholder="E-mail Adress">
+                <button class="footer__submit" type="submit"></button>
+              </form>
+  
             </div>
           </div>
-
-          <div data-sort="order: popular" class="product__cart category-WordPress mix">
-            <a href="#" class="product__image" style="background-image: url('images/products/2.jpg')"></a>
-            <div class="product__whatitis">
-              <div class="product__item-wrap">
-                <a href="#" class="product__name">The Post Grid Pro</a>
-                <a href="#" class="product__category">WordPress Plugin</a>
-              </div>
-              <div class="product__price">$15</div>
-            </div>
-            <div class="product__bottom">
-              <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-              <a href="#" class="autor__name">PsdBosS</a>
-              <div class="product__star"></div>
-              <div class="stars">(05)</div>
-            </div>
-          </div>
-
-          <div class="product__cart category-WordPress mix">
-            <a href="#" class="product__image" style="background-image: url('images/products/3.jpg')"></a>
-            <div class="product__whatitis">
-              <div class="product__item-wrap">
-                <a href="#" class="product__name">Food Menu</a>
-                <a href="#" class="product__category">WordPress Plugin</a>
-              </div>
-              <div class="product__price">$20</div>
-            </div>
-            <div class="product__bottom">
-              <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-              <a href="#" class="autor__name">manilip</a>
-              <div class="product__star"></div>
-              <div class="stars">(05)</div>
-            </div>
-          </div>
-
-          <div class="product__cart category-PSD mix">
-            <a href="#" class="product__image" style="background-image: url('images/products/4.jpg')"></a>
-            <div class="product__whatitis">
-              <div class="product__item-wrap">
-                <a href="#" class="product__name">Imac Mockup</a>
-                <a href="#" class="product__category">Psd Template</a>
-              </div>
-              <div class="product__price">$12</div>
-            </div>
-            <div class="product__bottom">
-              <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-              <a href="#" class="autor__name">Lolypop</a>
-              <div class="product__star"></div>
-              <div class="stars">(05)</div>
-            </div>
-          </div>
-
-          <div class="product__cart category-Joomla mix">
-            <a href="#" class="product__image" style="background-image: url('images/products/8.jpg')"></a>
-            <div class="product__whatitis">
-              <div class="product__item-wrap">
-                <a href="#" class="product__name">Gymedge</a>
-                <a href="#" class="product__category">Joomla Template</a>
-              </div>
-              <div class="product__price">$45</div>
-            </div>
-            <div class="product__bottom">
-              <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-              <a href="#" class="autor__name">microsof</a>
-              <div class="product__star"></div>
-              <div class="stars">(05)</div>
-            </div>
-          </div>
-
-          <div class="product__cart category-WordPress mix">
-            <a href="#" class="product__image" style="background-image: url('images/products/7.jpg')"></a>
-            <div class="product__whatitis">
-              <div class="product__item-wrap">
-                <a href="#" class="product__name">The Post Grid Pro</a>
-                <a href="#" class="product__category">WordPress Plugin</a>
-              </div>
-              <div class="product__price">$19</div>
-            </div>
-            <div class="product__bottom">
-              <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-              <a href="#" class="autor__name">Raklouse</a>
-              <div class="product__star"></div>
-              <div class="stars">(05)</div>
-            </div>
-          </div>
-
-          <div class="product__cart category-PSD mix">
-            <a href="#" class="product__image" style="background-image: url('images/products/6.jpg')"></a>
-            <div class="product__whatitis">
-              <div class="product__item-wrap">
-                <a href="#" class="product__name">Dool Face</a>
-                <a href="#" class="product__category">Illsatration</a>
-              </div>
-              <div class="product__price">$10</div>
-            </div>
-            <div class="product__bottom">
-              <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-              <a href="#" class="autor__name">Mikc Art</a>
-              <div class="product__star"></div>
-              <div class="stars">(05)</div>
-            </div>
-          </div>
-
-          <div class="product__cart category-PSD mix">
-            <a href="#" class="product__image" style="background-image: url('images/products/5.jpg')"></a href="#">
-            <div class="product__whatitis">
-              <div class="product__item-wrap">
-                <a href="#" class="product__name">Illsatration</a>
-                <a href="#" class="product__category">PSD Template</a>
-              </div>
-              <div class="product__price">$10</div>
-            </div>
-            <div class="product__bottom">
-              <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-              <a href="#" class="autor__name">ThemeLol</a>
-              <div class="product__star"></div>
-              <div class="stars">(05)</div>
-            </div>
-          </div>
-
         </div>
-        <button type="button" class="product__btn" data-sort="order:new">All New Items</button>
-        <button type="button" class="product__btn" data-sort="order: popular">Popular Items</button>
-
+        <div class="footer__bottom">© 2017 Foxtar market place. Trademarks and brands are the property of their respective
+          owners.</div>
       </div>
-    </div>
-  </section>
-
-<section class="trending__slider">
-  <div class="container-fluid">
-    <div class="product-title trending__title">This Week Trending Products</div>
-    <div class="slider__trending__inner">
-
-      <div data-sort="order:new" class="product__cart category-Component mix">
-        <a href="#" class="product__image" style="background-image: url('images/products/1.jpg')"></a>
-        <div class="product__whatitis">
-          <div class="product__item-wrap">
-            <a href="#" class="product__name">Responsive Mobile App</a>
-            <a href="#" class="product__category">Site Template</a>
-          </div>
-          <div class="product__price">$19</div>
-        </div>
-        <div class="product__bottom">
-          <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-          <a href="#" class="autor__name">Radiustheme</a>
-          <div class="product__star"></div>
-          <div class="stars">(05)</div>
-        </div>
-      </div>
-
-      <div data-sort="order: popular" class="product__cart category-WordPress mix">
-        <a href="#" class="product__image" style="background-image: url('images/products/2.jpg')"></a>
-        <div class="product__whatitis">
-          <div class="product__item-wrap">
-            <a href="#" class="product__name">The Post Grid Pro</a>
-            <a href="#" class="product__category">WordPress Plugin</a>
-          </div>
-          <div class="product__price">$15</div>
-        </div>
-        <div class="product__bottom">
-          <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-          <a href="#" class="autor__name">PsdBosS</a>
-          <div class="product__star"></div>
-          <div class="stars">(05)</div>
-        </div>
-      </div>
-
-      <div class="product__cart category-WordPress mix">
-        <a href="#" class="product__image" style="background-image: url('images/products/3.jpg')"></a>
-        <div class="product__whatitis">
-          <div class="product__item-wrap">
-            <a href="#" class="product__name">Food Menu</a>
-            <a href="#" class="product__category">WordPress Plugin</a>
-          </div>
-          <div class="product__price">$20</div>
-        </div>
-        <div class="product__bottom">
-          <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-          <a href="#" class="autor__name">manilip</a>
-          <div class="product__star"></div>
-          <div class="stars">(05)</div>
-        </div>
-      </div>
-
-      <div class="product__cart category-PSD mix">
-        <a href="#" class="product__image" style="background-image: url('images/products/4.jpg')"></a>
-        <div class="product__whatitis">
-          <div class="product__item-wrap">
-            <a href="#" class="product__name">Imac Mockup</a>
-            <a href="#" class="product__category">Psd Template</a>
-          </div>
-          <div class="product__price">$12</div>
-        </div>
-        <div class="product__bottom">
-          <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-          <a href="#" class="autor__name">Lolypop</a>
-          <div class="product__star"></div>
-          <div class="stars">(05)</div>
-        </div>
-      </div>
-
-      <div class="product__cart category-Joomla mix">
-        <a href="#" class="product__image" style="background-image: url('images/products/8.jpg')"></a>
-        <div class="product__whatitis">
-          <div class="product__item-wrap">
-            <a href="#" class="product__name">Gymedge</a>
-            <a href="#" class="product__category">Joomla Template</a>
-          </div>
-          <div class="product__price">$45</div>
-        </div>
-        <div class="product__bottom">
-          <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-          <a href="#" class="autor__name">microsof</a>
-          <div class="product__star"></div>
-          <div class="stars">(05)</div>
-        </div>
-      </div>
-
-      <div class="product__cart category-WordPress mix">
-        <a href="#" class="product__image" style="background-image: url('images/products/7.jpg')"></a>
-        <div class="product__whatitis">
-          <div class="product__item-wrap">
-            <a href="#" class="product__name">The Post Grid Pro</a>
-            <a href="#" class="product__category">WordPress Plugin</a>
-          </div>
-          <div class="product__price">$19</div>
-        </div>
-        <div class="product__bottom">
-          <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-          <a href="#" class="autor__name">Raklouse</a>
-          <div class="product__star"></div>
-          <div class="stars">(05)</div>
-        </div>
-      </div>
-
-      <div class="product__cart category-PSD mix">
-        <a href="#" class="product__image" style="background-image: url('images/products/6.jpg')"></a>
-        <div class="product__whatitis">
-          <div class="product__item-wrap">
-            <a href="#" class="product__name">Dool Face</a>
-            <a href="#" class="product__category">Illsatration</a>
-          </div>
-          <div class="product__price">$10</div>
-        </div>
-        <div class="product__bottom">
-          <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-          <a href="#" class="autor__name">Mikc Art</a>
-          <div class="product__star"></div>
-          <div class="stars">(05)</div>
-        </div>
-      </div>
-
-      <div class="product__cart category-PSD mix">
-        <a href="#" class="product__image" style="background-image: url('images/products/5.jpg')"></a href="#">
-        <div class="product__whatitis">
-          <div class="product__item-wrap">
-            <a href="#" class="product__name">Illsatration</a>
-            <a href="#" class="product__category">PSD Template</a>
-          </div>
-          <div class="product__price">$10</div>
-        </div>
-        <div class="product__bottom">
-          <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-          <a href="#" class="autor__name">ThemeLol</a>
-          <div class="product__star"></div>
-          <div class="stars">(05)</div>
-        </div>
-      </div>
-
-      <div data-sort="order:new" class="product__cart category-Component mix">
-        <a href="#" class="product__image" style="background-image: url('images/products/1.jpg')"></a>
-        <div class="product__whatitis">
-          <div class="product__item-wrap">
-            <a href="#" class="product__name">Responsive Mobile App</a>
-            <a href="#" class="product__category">Site Template</a>
-          </div>
-          <div class="product__price">$19</div>
-        </div>
-        <div class="product__bottom">
-          <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-          <a href="#" class="autor__name">Radiustheme</a>
-          <div class="product__star"></div>
-          <div class="stars">(05)</div>
-        </div>
-      </div>
-
-      <div data-sort="order: popular" class="product__cart category-WordPress mix">
-        <a href="#" class="product__image" style="background-image: url('images/products/2.jpg')"></a>
-        <div class="product__whatitis">
-          <div class="product__item-wrap">
-            <a href="#" class="product__name">The Post Grid Pro</a>
-            <a href="#" class="product__category">WordPress Plugin</a>
-          </div>
-          <div class="product__price">$15</div>
-        </div>
-        <div class="product__bottom">
-          <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-          <a href="#" class="autor__name">PsdBosS</a>
-          <div class="product__star"></div>
-          <div class="stars">(05)</div>
-        </div>
-      </div>
-
-      <div class="product__cart category-WordPress mix">
-        <a href="#" class="product__image" style="background-image: url('images/products/3.jpg')"></a>
-        <div class="product__whatitis">
-          <div class="product__item-wrap">
-            <a href="#" class="product__name">Food Menu</a>
-            <a href="#" class="product__category">WordPress Plugin</a>
-          </div>
-          <div class="product__price">$20</div>
-        </div>
-        <div class="product__bottom">
-          <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-          <a href="#" class="autor__name">manilip</a>
-          <div class="product__star"></div>
-          <div class="stars">(05)</div>
-        </div>
-      </div>
-
-      <div class="product__cart category-PSD mix">
-        <a href="#" class="product__image" style="background-image: url('images/products/4.jpg')"></a>
-        <div class="product__whatitis">
-          <div class="product__item-wrap">
-            <a href="#" class="product__name">Imac Mockup</a>
-            <a href="#" class="product__category">Psd Template</a>
-          </div>
-          <div class="product__price">$12</div>
-        </div>
-        <div class="product__bottom">
-          <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-          <a href="#" class="autor__name">Lolypop</a>
-          <div class="product__star"></div>
-          <div class="stars">(05)</div>
-        </div>
-      </div>
-
-      <div class="product__cart category-Joomla mix">
-        <a href="#" class="product__image" style="background-image: url('images/products/8.jpg')"></a>
-        <div class="product__whatitis">
-          <div class="product__item-wrap">
-            <a href="#" class="product__name">Gymedge</a>
-            <a href="#" class="product__category">Joomla Template</a>
-          </div>
-          <div class="product__price">$45</div>
-        </div>
-        <div class="product__bottom">
-          <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-          <a href="#" class="autor__name">microsof</a>
-          <div class="product__star"></div>
-          <div class="stars">(05)</div>
-        </div>
-      </div>
-
-      <div class="product__cart category-WordPress mix">
-        <a href="#" class="product__image" style="background-image: url('images/products/7.jpg')"></a>
-        <div class="product__whatitis">
-          <div class="product__item-wrap">
-            <a href="#" class="product__name">The Post Grid Pro</a>
-            <a href="#" class="product__category">WordPress Plugin</a>
-          </div>
-          <div class="product__price">$19</div>
-        </div>
-        <div class="product__bottom">
-          <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-          <a href="#" class="autor__name">Raklouse</a>
-          <div class="product__star"></div>
-          <div class="stars">(05)</div>
-        </div>
-      </div>
-
-      <div class="product__cart category-PSD mix">
-        <a href="#" class="product__image" style="background-image: url('images/products/6.jpg')"></a>
-        <div class="product__whatitis">
-          <div class="product__item-wrap">
-            <a href="#" class="product__name">Dool Face</a>
-            <a href="#" class="product__category">Illsatration</a>
-          </div>
-          <div class="product__price">$10</div>
-        </div>
-        <div class="product__bottom">
-          <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-          <a href="#" class="autor__name">Mikc Art</a>
-          <div class="product__star"></div>
-          <div class="stars">(05)</div>
-        </div>
-      </div>
-
-      <div class="product__cart category-PSD mix">
-        <a href="#" class="product__image" style="background-image: url('images/products/5.jpg')"></a href="#">
-        <div class="product__whatitis">
-          <div class="product__item-wrap">
-            <a href="#" class="product__name">Illsatration</a>
-            <a href="#" class="product__category">PSD Template</a>
-          </div>
-          <div class="product__price">$10</div>
-        </div>
-        <div class="product__bottom">
-          <a href="#" class="avatar" style="background-image: url('images/avatar__fill.jpg');"></a>
-          <a href="#" class="autor__name">ThemeLol</a>
-          <div class="product__star"></div>
-          <div class="stars">(05)</div>
-        </div>
-      </div>
-
-    </div>
+    </footer>
   </div>
-</section>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src='js/libs.min.js'></script>
-  <script src='js/main.min.js'></script>
+  <script src='js/main.js'></script>
 </body>
 
 </html>
